@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satnam Pharma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Satnam Pharma</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="overlay">
+            <div class="hero-content">
+                <h1>Welcome to Satnam Pharma</h1>
+                <p>Your trusted partner in pet health care.</p>
+                <button onclick="scrollToSection('about')">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="info-section">
+        <h2>About Us</h2>
+        <h3>At Satnam Pharma, we are dedicated to advancing animal health through innovative pharmaceutical solutions. Specializing in the development, manufacture, and distribution of high-quality veterinary medicines, vaccines, and nutritional supplements, our mission is to enhance the well-being of pets, livestock, and exotic animals globally. With a strong focus on research, quality assurance, and sustainability, we collaborate with leading institutions to bring cutting-edge products to market. Our commitment to excellence and ethical responsibility ensures that we provide safe, effective, and reliable solutions to the veterinary community and animal caregivers worldwide.</h3>
+    </section>
+    <section id="services" class="info-section">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Veterinary Consultations</h3>
+                <p>Expert consultations to keep your pet healthy and happy.</p>
+            </div>
+            <div class="service">
+                <h3>Prescription Medications</h3>
+                <p>High-quality medications prescribed by our experienced vets.</p>
+            </div>
+            <div class="service">
+                <h3>Pet Vaccinations</h3>
+                <p>Ensure your pet is protected with our vaccination services.</p>
+            </div>
+            <div class="service">
+                <h3>Health and Wellness Products</h3>
+                <p>Wide range of products to maintain your pet’s health.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="info-section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Satnam Pharma. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
